@@ -43,7 +43,7 @@ jobs:
       - run: npm ci
       - run: npm run test:ci
       # תרגיל 3: אחרי שה-AI כתב בדיקות לקופונים — להסיר את ההערה (שער כיסוי 90%)
-      # - run: npm run coverage
+      - run: npm run coverage
       - name: Upload test report
         if: always()
         uses: actions/upload-artifact@v4
