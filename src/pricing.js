@@ -1,7 +1,7 @@
 // Coffee Break — חישוב מחיר להזמנה בקפיטריה של המיטאפ
 // הקוד הזה הוא "המוצר" שעליו נבנה את הפייפליין.
 
-export const VAT_RATE = 0.17;
+export const VAT_RATE = 0.18;
 
 export const COUPONS = {
   WELCOME10: { type: 'percent', value: 10 },
