@@ -76,8 +76,7 @@ jobs:
 
 
       # שער איכות: אם הכיסוי מתחת ל-90% — job נכשל
-      - name: Coverage gate
-        run: npm run coverage
+      - run: npm run coverage
 
 
       # העלאת reports/ גם אם הבדיקות נכשלו; שם ייחודי לכל גרסת Node
