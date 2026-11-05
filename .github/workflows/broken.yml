@@ -3,7 +3,7 @@
 # 1. העתיקו אותו ל- .github/workflows/broken.yml
 # 2. עשו commit ותראו מה קורה בלשונית Actions
 # 3. הדביקו את הודעת השגיאה ל-AI ובקשו הסבר + תיקון
-# 4. חזרו על זה עד שהריצה ירוקה
+# 4. חזרו על זה עד שהריצה ירוקהvvvvv
 
 name: Broken CI
 
@@ -26,4 +26,4 @@ jobs:
         run: npm ci
 
       - name: Test
-         run: npm run test
+        run: npm run test
